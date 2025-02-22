@@ -6,8 +6,8 @@ def semaforo_inteligente():
     estados = ['Verde', 'Amarillo', 'Rojo']
     
     while True:
-        vehiculos = random.randint(0, 20)  # Simula el tráfico
-        
+        vehiculos = random.randint(0, 20)  
+        # Simula el tráfico
         if vehiculos > 10:
             tiempo_verde = 10
         else:
