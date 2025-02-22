@@ -8,7 +8,6 @@ def diagnostico():
         "alergia": ["estornudos", "picazón en ojos", "congestión nasal"]
     }
     
-    
     for enfermedad, lista_sintomas in enfermedades.items():
         if all(sintoma.strip() in lista_sintomas for sintoma in sintomas):
             print(f"Posible diagnóstico: {enfermedad.capitalize()}.")
