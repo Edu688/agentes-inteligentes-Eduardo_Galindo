@@ -7,6 +7,7 @@ def recomendacion_peliculas():
         "drama": ["The Shawshank Redemption", "Forrest Gump", "El Padrino"]
     }
     
+    
     genero = input("Ingrese su género favorito (accion, comedia, drama): ").lower()
     if genero in peliculas:
         print(f"Te recomendamos: {random.choice(peliculas[genero])}")

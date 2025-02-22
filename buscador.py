@@ -6,7 +6,8 @@ def buscador_objetos():
     grid = np.zeros((5,5), dtype=int)
     x, y = 0, 0  # Posición inicial del agente
     obj_x, obj_y = random.randint(0, 4), random.randint(0, 4)
-    grid[obj_x, obj_y] = 2  # Posición del objeto
+    grid[obj_x, obj_y] = 2  
+    # Posición del objeto
     
     while (x, y) != (obj_x, obj_y):
         grid[x, y] = 1

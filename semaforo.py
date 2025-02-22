@@ -1,6 +1,7 @@
 import time
 import random
 
+
 def semaforo_inteligente():
     estados = ['Verde', 'Amarillo', 'Rojo']
     
