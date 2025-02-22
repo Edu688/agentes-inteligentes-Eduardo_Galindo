@@ -1,6 +1,7 @@
 def diagnostico():
     sintomas = input("Ingrese los síntomas separados por comas: ").lower().split(",")
 
+    
     enfermedades = {
         "gripe": ["fiebre", "tos", "dolor de garganta"],
         "migraña": ["dolor de cabeza", "náuseas", "sensibilidad a la luz"],
