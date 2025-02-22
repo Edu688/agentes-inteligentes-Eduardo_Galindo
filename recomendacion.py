@@ -12,6 +12,5 @@ def recomendacion_peliculas():
         print(f"Te recomendamos: {random.choice(peliculas[genero])}")
     else:
         print("Género no disponible.")
-
 if __name__ == "__main__":
     recomendacion_peliculas()
