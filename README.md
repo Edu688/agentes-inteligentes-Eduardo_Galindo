@@ -13,3 +13,5 @@ Este repositorio contiene cuatro agentes inteligentes implementados en Python:
 
 4. **Recomendador de Películas (`recomendacion.py`)**  
    - Recomienda películas basadas en el género favorito del usuario.
+
+Eduardo_Galindo 
